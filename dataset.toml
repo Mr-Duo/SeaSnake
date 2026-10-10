@@ -1,0 +1,31 @@
+# Dataset manifest for duong/SeaSnake
+# Add tasks using: harbor dataset add <org>/<name>
+# Publish using: harbor publish
+
+[dataset]
+name = "duong/SeaSnake"
+version = "1.0.0"x
+description = ""
+authors = []
+keywords = []
+
+[[tasks]]
+name = "duong/CVE-2025-12276"
+digest = "sha256:2cbb7da5179c2cf2dbfc4b3af82c2956f882cb6ebe34806d6aff9837f32ebe39"
+
+[[tasks]]
+name = "duong/CVE-2025-24359"
+digest = "sha256:c20396878872936d91fcca5bfb652aa2928442e437300da70c94e363038e350a"
+
+[[tasks]]
+name = "duong/CVE-2025-27520"
+digest = "sha256:babb0a29a07e2f33c68f77d933ba2ef59e78a67b6e33c58ac5366f2f93eb0a9a"
+
+[[tasks]]
+name = "duong/CVE-2025-3248"
+digest = "sha256:c8ecc88d0a137b0e59c2100c373afbfce0fea0c661e8d15f2c91456d20d6f7cc"
+
+[[tasks]]
+name = "duong/CVE-2025-35028"
+digest = "sha256:08dfa28e08fac28daed0b9d6c94ed9a700be129b68f66808acd7556b023a621e"
+
