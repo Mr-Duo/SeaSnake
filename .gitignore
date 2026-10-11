@@ -215,3 +215,6 @@ __marimo__/
 # Jobs folder
 jobs/*
 !jobs/.gitkeep
+
+#vscode
+.vscode

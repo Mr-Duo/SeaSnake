@@ -1,0 +1,16 @@
+# Normalize all text files to LF, both in the repo and in the working copy
+* text=auto eol=lf
+
+# Windows batch files keep CRLF
+*.bat text eol=crlf
+
+# Binary files: never touch
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.zip binary
+*.woff binary
+*.woff2 binary
