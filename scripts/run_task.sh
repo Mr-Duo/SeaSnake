@@ -137,10 +137,12 @@ resolve_skill() {
 }
 
 skill_args=()
-for s in "${skills[@]}"; do
-    resolved="$(resolve_skill "$s")" || exit 1
-    skill_args+=(--skill "$resolved")
-done
+if [[ ${#skills[@]} -gt 0 ]]; then
+    for s in "${skills[@]}"; do
+        resolved="$(resolve_skill "$s")" || exit 1
+        skill_args+=(--skill "$resolved")
+    done
+fi
 
 is_excluded() {
     local name="$1" ex
@@ -195,7 +197,7 @@ run_task() {
         -a "$agent_name" \
         -m "$model_name" \
         -p "$task_path" \
-        "${skill_args[@]}"
+        "${skill_args[@]+"${skill_args[@]}"}"
 }
 
 # Run every task; keep going on failure and report at the end

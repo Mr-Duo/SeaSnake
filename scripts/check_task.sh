@@ -30,7 +30,7 @@ EOF
 # Defaults
 base_dir="$(cd -- "$script_dir/../tasks" && pwd)"
 agent_name="mini-swe-agent"
-model_name="openrouter/deepseek/deepseek-v3.2"
+model_name="openrouter/deepseek/deepseek-v4.1-flash"
 default_skill="$script_dir/snapshot_management_skill"
 
 task_names=()
@@ -141,7 +141,7 @@ run_task() {
     harbor check \
         -a "$agent_name" \
         -m "$model_name" \
-        "$task_name"
+        "$task_path"
     }
 
 # Run every task; keep going on failure and report at the end
