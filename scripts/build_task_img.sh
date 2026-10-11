@@ -18,4 +18,7 @@ if [[ ! -f "$dockerfile" ]]; then
 fi
 
 # Build the Docker image using the task directory as the build context
-docker build -f "$dockerfile" -t "$image_name" "$task_dir"
+docker build \
+    --platform=linux/amd64 \
+    -f "$dockerfile" \
+    -t "$image_name" "$task_dir"
