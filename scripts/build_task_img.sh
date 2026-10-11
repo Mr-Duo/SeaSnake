@@ -8,11 +8,11 @@ usage() {
 Usage: $script_name [options] [task_name ...]
 
 Build Docker images for one or more tasks. If no task names are given,
-all tasks in the base directory are built (after confirmation).
+all tasks in the default directory are built (after confirmation).
 
 Options:
   -p, --path <dir>       Base directory containing the tasks
-                         (default: parent directory of this script's folder)
+                         (default: the tasks folder)
   -e, --exclude <name>   Task to exclude (repeatable, or comma-separated)
   -h, --help             Show this help
 
@@ -25,7 +25,7 @@ EOF
 }
 
 # Default: parent directory of the folder containing this script
-base_dir="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/.." && pwd)"
+base_dir="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/../tasks" && pwd)"
 
 task_names=()
 excludes=()

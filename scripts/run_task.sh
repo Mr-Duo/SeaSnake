@@ -13,12 +13,12 @@ directory are run (after confirmation).
 
 Options:
   -p, --path <dir>       Base directory containing the tasks
-                         (default: parent directory of this script's folder)
+                        (default: the tasks folder)
   -e, --exclude <name>   Task to exclude (repeatable, or comma-separated)
   -s, --skill <path>     Skill to include (repeatable). Either the exact path
                          to a SKILL.md file, or a folder containing exactly
                          one SKILL.md.
-                         (default: $script_dir/snapshot_management_skill)
+                         (default: None)
   -a, --agent <name>     Agent name (default: mini-swe-agent)
   -m, --model <name>     Model name (default: openrouter/deepseek/deepseek-v3.2)
   -h, --help             Show this help
@@ -33,7 +33,7 @@ EOF
 }
 
 # Defaults
-base_dir="$(cd -- "$script_dir/.." && pwd)"
+base_dir="$(cd -- "$script_dir/../tasks" && pwd)"
 agent_name="mini-swe-agent"
 model_name="openrouter/deepseek/deepseek-v3.2"
 default_skill="$script_dir/snapshot_management_skill"

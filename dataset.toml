@@ -4,28 +4,28 @@
 
 [dataset]
 name = "duong/SeaSnake"
-version = "1.0.0"x
+version = "1.0.0"
 description = ""
 authors = []
 keywords = []
 
 [[tasks]]
-name = "duong/CVE-2025-12276"
-digest = "sha256:2cbb7da5179c2cf2dbfc4b3af82c2956f882cb6ebe34806d6aff9837f32ebe39"
+name = "LiveCVEBench/CVE-2025-12276"
+digest = "sha256:042ba9505165120347ead9afe05652568d5900d9f289fc6a46698e21267de836"
 
 [[tasks]]
-name = "duong/CVE-2025-24359"
-digest = "sha256:c20396878872936d91fcca5bfb652aa2928442e437300da70c94e363038e350a"
+name = "LiveCVEBench/CVE-2025-24359"
+digest = "sha256:171754d49746d9693a076c89297896a3b0d639966fe379c9b6def93696030eea"
 
 [[tasks]]
-name = "duong/CVE-2025-27520"
-digest = "sha256:babb0a29a07e2f33c68f77d933ba2ef59e78a67b6e33c58ac5366f2f93eb0a9a"
+name = "LiveCVEBench/CVE-2025-27520"
+digest = "sha256:1199f3cd7193197890e2570d5e310841ff4b8e45abec5392b85b534671527298"
 
 [[tasks]]
-name = "duong/CVE-2025-3248"
-digest = "sha256:c8ecc88d0a137b0e59c2100c373afbfce0fea0c661e8d15f2c91456d20d6f7cc"
+name = "LiveCVEBench/CVE-2025-3248"
+digest = "sha256:ed8d1ee8304f4f1b332d9ebb9b999bab41b95977eb24942d956ea4ef89aafebb"
 
 [[tasks]]
-name = "duong/CVE-2025-35028"
-digest = "sha256:08dfa28e08fac28daed0b9d6c94ed9a700be129b68f66808acd7556b023a621e"
+name = "LiveCVEBench/CVE-2025-35028"
+digest = "sha256:22bfcae5e8e80ae886736eb135a3db60d65fb593683161128672fd8845b50e76"
 
