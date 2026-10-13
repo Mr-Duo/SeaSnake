@@ -18,10 +18,6 @@ name = "LiveCVEBench/CVE-2025-24359"
 digest = "sha256:5452abe09993374c920ae85c90551489c44fdadff7d8168a4dfdda503f7f2666"
 
 [[tasks]]
-name = "LiveCVEBench/CVE-2025-27520"
-digest = "sha256:96a50dcb72651c1ebaa53e81ed42a71674f370b2f39b0e0301ff18e29ebf5fb5"
-
-[[tasks]]
 name = "LiveCVEBench/CVE-2025-3248"
 digest = "sha256:ed8d1ee8304f4f1b332d9ebb9b999bab41b95977eb24942d956ea4ef89aafebb"
 
@@ -56,10 +52,6 @@ digest = "sha256:20df901ae137ed33dfecdfd114af7a5d9a8c02d20aadf169acce676f9ce7392
 [[tasks]]
 name = "LiveCVEBench/CVE-2025-54140"
 digest = "sha256:de88f34051847667032545cf50945447117a8b9c3e18cd3ba17db5b3f2785bd4"
-
-[[tasks]]
-name = "LiveCVEBench/CVE-2025-54381"
-digest = "sha256:04efbe4650fba90ca6de29e04441649a8e2827da5e61ab9aea2a8fdb974d5c4d"
 
 [[tasks]]
 name = "LiveCVEBench/CVE-2025-54796"
@@ -132,4 +124,12 @@ digest = "sha256:8cbcb8ac522c66b3f3c141d6f360bcd560fcd7e8c8d84c9c3475adfdaf4979d
 [[tasks]]
 name = "LiveCVEBench/CVE-2025-5151"
 digest = "sha256:178cf7c49acd63503182152516dc26cef1fcd99cb8793cbfa73e49a0fe49d823"
+
+[[tasks]]
+name = "LiveCVEBench/CVE-2025-27520"
+digest = "sha256:7904db93a4b9cdb98a99f226fcd76767217652e33361ef78f4acaa0283f78e5b"
+
+[[tasks]]
+name = "LiveCVEBench/CVE-2025-54381"
+digest = "sha256:cca116f2b3a23c9dba542beca70e829110ad991de74109674eeeaa0b1194b854"
 
