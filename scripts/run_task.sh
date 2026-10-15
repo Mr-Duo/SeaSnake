@@ -34,8 +34,8 @@ EOF
 
 # Defaults
 base_dir="$(cd -- "$script_dir/../tasks" && pwd)"
-agent_name="mini-swe-agent"
-model_name="openrouter/deepseek/deepseek-v3.2"
+agent_name="agents.snap_codex:Codex"
+model_name="openrouter/deepseek/deepseek-v4.1-flash"
 default_skill="$script_dir/snapshot_management_skill"
 
 task_names=()
